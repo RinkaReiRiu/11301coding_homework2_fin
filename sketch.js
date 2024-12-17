@@ -39,7 +39,7 @@ const spriteData = {
   
 function preload() {
   // 載入背景
-  bg = loadImage('media/bg.JPG');
+  bg = loadImage('media/bg.jpg');
   // 載入所有角色的精靈圖
   characters[0] = {
     idle: loadImage('media/c1/c1m3.png'),
