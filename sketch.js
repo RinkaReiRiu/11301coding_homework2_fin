@@ -116,7 +116,9 @@ function draw() {
       "↓：蹲下",
       "空格鍵：練習向右發射子彈",
       "無按鍵：待機",
-      "目標：持續練習把子彈打到右邊的障礙物上"
+      "目標：持續練習，把子彈打到右邊的障礙物上",
+      "練習的過程可能會有挫折，努力到最後會有什麼結果呢？",
+      "TKUET 113 01 Program Design"
     ];
     for (let i = 0; i < instructions.length; i++) {
       text(instructions[i], 20, height - 20 - (instructions.length - i) * 20);
